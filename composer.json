@@ -1,0 +1,24 @@
+{
+    "name": "head-of-ddd/library-domain",
+    "description": "This repository is a description of the domain for the project - a library of books. This repository was created for subsequent porting to the project on Laravel and Symfony.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeniy Prokhorov",
+            "email": "evgwed@gmail.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^3.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "HeadOfDDD\\Library\\Domain\\": "src/",
+            "HeadOfDDD\\Library\\Domain\\Tests\\": "tests/"
+        }
+    }
+}
