@@ -6,4 +6,4 @@ services:
   - docker
 
 script:
-  - bundle exec make install && make test
+  - make install && make test
